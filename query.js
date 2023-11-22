@@ -1,9 +1,11 @@
 (async () => {
     const prisma = require('./lib/prisma-client')
     
-    prisma.post.delete({
+    prisma.post.findMany({
         where: {
-            id: 2
+            content: {
+                contains: 'prisma'
+            }
         }
     }).then((result) => {
         console.log(`Trovat${result.length > 1 ? 'i' : 'o'} ${result.length} post`)

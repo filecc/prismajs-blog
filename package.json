@@ -11,7 +11,8 @@
     "delete": "node delete.js",
     "post": "node get-single-post.js",
     "all-posts": "node get-posts.js",
-    "published": "node published.js"
+    "published": "node published.js",
+    "query": "node query.js"
   },
   "author": "",
   "license": "ISC",
