@@ -7,7 +7,8 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node index.js",
     "create": "node create.js",
-    "post": "node get-single-post.js"
+    "post": "node get-single-post.js",
+    "all-posts": "node get-posts.js"
   },
   "author": "",
   "license": "ISC",
