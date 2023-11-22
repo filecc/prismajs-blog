@@ -10,7 +10,8 @@
     "edit": "node edit.js",
     "delete": "node delete.js",
     "post": "node get-single-post.js",
-    "all-posts": "node get-posts.js"
+    "all-posts": "node get-posts.js",
+    "published": "node published.js"
   },
   "author": "",
   "license": "ISC",
