@@ -8,6 +8,7 @@
     "start": "node index.js",
     "create": "node create.js",
     "edit": "node edit.js",
+    "delete": "node delete.js",
     "post": "node get-single-post.js",
     "all-posts": "node get-posts.js"
   },
